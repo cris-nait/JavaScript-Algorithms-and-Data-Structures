@@ -1,0 +1,17 @@
+@import "../core/variables";
+header {
+  color: $color-primary;
+  background-color: $color-secondary;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  p {
+    color: $color-alternate;
+  }
+}
