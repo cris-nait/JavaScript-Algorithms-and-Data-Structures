@@ -1,6 +1,7 @@
 @import "../core/variables";
 
 .aside_navbar {
+  position: fixed;
   padding: 0;
   color: $color-secondary;
   background-color: $color-primary;
@@ -23,7 +24,7 @@
       text-align: center;
       color: $color-secondary;
       text-decoration: none;
-      transition: ease-in 0.3s;
+      transition: ease 0.1s;
       &:hover {
         background-color: $color-secondary;
         color: $color-alternate;
