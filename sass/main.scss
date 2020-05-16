@@ -1,5 +1,11 @@
 @import "layout/container", "components/typography", "layout/navbar",
   "layout/header";
-body {
-  margin: 0;
+html {
+  scroll-behavior: smooth;
+  body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
 }

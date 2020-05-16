@@ -37,34 +37,39 @@
       </div>
       <div class="menu_container txt-sm">
         <a href="#" class="active"><p>Home</p></a>
-        <a href=".palidrome-checker"><p>Palidrome Checker</p></a>
+        <a href="#palidromeChecker"><p>Palidrome Checker</p></a>
         <a href=".roman-numeral"><p>Roman Numeral Converter</p></a>
         <a href=""><p>Caesars Cipher</p></a>
         <a href=""><p>Telephone Number Validator</p></a>
         <a href=""><p>Cash Register</p></a>
       </div>
     </nav>
-    <header>
-      <h1 class="txt-xl">
-        [JavaScript Algorithms and Data Structures Projects]
-      </h1>
-      <p class="txt-md">
-        <i class="fab fa-free-code-camp"></i>
-        On this web site you can find the projects of
-        <b>freeCodeCamp.org </b> related to JavaScript :)
-      </p>
-    </header>
-    <main>
-      <section class="palidrome_checker container">
+    <main class="container">
+      <header>
+        <h1 class="txt-xl">
+          [JavaScript Algorithms and Data Structures Projects]
+        </h1>
+        <p class="txt-md">
+          <i class="fab fa-free-code-camp"></i>
+          On this web site you can find the projects of
+          <b>freeCodeCamp.org </b> related to JavaScript :)
+        </p>
+      </header>
+      <section id="palidromeChecker">
         <h2 class="title">Palidrome Checker</h2>
         <div class="palidrome_app">
           <p>
             A palindrome is a word or sentence that's spelled the same way both
             forward and backward, ignoring punctuation, case, and spacing.
           </p>
+          <span>Insert text here:</span>
+          <input type="text" class="" id="palidrome_text" /> <br />
+          <button class="btn" id="btn_palidrome">Is a polidrome?</button>
+          <span id="palidrome_response"></span>
         </div>
       </section>
     </main>
     <footer></footer>
+    <script src="scripts/main.js"></script>
   </body>
 </html>

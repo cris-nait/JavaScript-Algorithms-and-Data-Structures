@@ -1,12 +1,13 @@
 @import "../core/variables";
 
 .aside_navbar {
-  position: fixed;
+  position: sticky;
+  top: 0;
   padding: 0;
   color: $color-secondary;
   background-color: $color-primary;
   height: 100vh;
-  width: 180px;
+  min-width: 180px;
   .icon_container {
     margin: 0;
     padding: 0;
