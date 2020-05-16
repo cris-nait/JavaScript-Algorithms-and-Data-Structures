@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .container {
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
   background-color: #323330;
 }
 
@@ -31,46 +40,6 @@
 
 .container section h2 {
   color: #f0db4f;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-.txt-sm {
-  font-size: 14px;
-}
-
-.txt-md {
-  font-size: 14px;
-}
-
-@media all and (min-width: 400px) {
-  .txt-md {
-    font-size: 16px;
-  }
-}
-
-@media all and (min-width: 600px) {
-  .txt-md {
-    font-size: 20px;
-  }
-}
-
-.txt-xl {
-  font-size: 1rem;
-}
-
-@media all and (min-width: 400px) {
-  .txt-xl {
-    font-size: 2em;
-  }
-}
-
-@media all and (min-width: 600px) {
-  .txt-xl {
-    font-size: 3rem;
-  }
 }
 
 .aside_navbar {
@@ -131,17 +100,15 @@
 
 header {
   color: #f0db4f;
-  background-color: #323330;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100vh;
-  padding-left: 2rem;
-  padding-right: 2rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -153,6 +120,95 @@ header {
 
 header p {
   color: #f8f8f8;
+}
+
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #f0db4f;
+  margin: 2rem;
+  background: none;
+  padding: 1rem 2rem;
+  border: 2px solid #f0db4f;
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: ease 0.1s;
+  transition: ease 0.1s;
+}
+
+.btn:hover {
+  background-color: #f0db4f;
+  color: #323330;
+}
+
+.btn:active {
+  background-color: #f8f8f8;
+  color: #323330;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.txt-sm {
+  font-size: 14px;
+}
+
+.txt-md {
+  font-size: 14px;
+}
+
+@media all and (min-width: 400px) {
+  .txt-md {
+    font-size: 16px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .txt-md {
+    font-size: 20px;
+  }
+}
+
+.txt-xl {
+  font-size: 1rem;
+}
+
+@media all and (min-width: 400px) {
+  .txt-xl {
+    font-size: 2em;
+  }
+}
+
+@media all and (min-width: 600px) {
+  .txt-xl {
+    font-size: 3rem;
+  }
+}
+
+.palindrome_app .palindrome_input {
+  padding: 1rem;
+}
+
+.palindrome_app #palindrome_response {
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.palindrome_app #palindrome_response p {
+  margin: 0;
+}
+
+.input-roman {
+  margin: 1rem;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  padding: 1rem;
+}
+
+#roman_response p {
+  margin: 0;
 }
 
 html {

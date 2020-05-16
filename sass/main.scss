@@ -1,5 +1,14 @@
-@import "layout/container", "components/typography", "layout/navbar",
-  "layout/header";
+@import "layout/container";
+@import "layout/navbar";
+@import "layout/footer";
+@import "layout/header";
+@import "components/buttons";
+@import "components/typography";
+@import "pages/palindrome";
+@import "pages/roman-numeral-converter";
+@import "pages/caesars-cipher";
+@import "pages/cash-register";
+@import "pages/telephone-number-validator";
 html {
   scroll-behavior: smooth;
   body {

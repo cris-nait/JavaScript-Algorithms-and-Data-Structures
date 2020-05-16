@@ -36,8 +36,8 @@
         <i class="fab fa-js fa-5x icon"></i>
       </div>
       <div class="menu_container txt-sm">
-        <a href="#" class="active"><p>Home</p></a>
-        <a href="#palidromeChecker"><p>Palidrome Checker</p></a>
+        <a href="#"><p>Home</p></a>
+        <a href="#palindromeChecker"><p>Palindrome Checker</p></a>
         <a href=".roman-numeral"><p>Roman Numeral Converter</p></a>
         <a href=""><p>Caesars Cipher</p></a>
         <a href=""><p>Telephone Number Validator</p></a>
@@ -55,18 +55,43 @@
           <b>freeCodeCamp.org </b> related to JavaScript :)
         </p>
       </header>
-      <section id="palidromeChecker">
-        <h2 class="title">Palidrome Checker</h2>
-        <div class="palidrome_app">
+      <section id="palindromeChecker">
+        <h2 class="title txt-xl">Palindrome Checker</h2>
+        <div class="palindrome_app">
           <p>
             A palindrome is a word or sentence that's spelled the same way both
             forward and backward, ignoring punctuation, case, and spacing.
           </p>
-          <span>Insert text here:</span>
-          <input type="text" class="" id="palidrome_text" /> <br />
-          <button class="btn" id="btn_palidrome">Is a polidrome?</button>
-          <span id="palidrome_response"></span>
+          <p>
+            Examples: I did, did I? - Red rum, sir, is murder - Rotator - Level.
+          </p>
+          <br />
+          <input
+            type="text"
+            class="palindrome_input txt-md"
+            id="palindrome_text"
+            placeholder="No lemon, no melon..."
+          />
+          <br />
+          <button class="btn txt-md" id="btn_palindrome">
+            Is it a palindrome?
+          </button>
+          <span class="txt-xl" id="palindrome_response"></span>
         </div>
+      </section>
+      <section id="romanNumeralConverter">
+        <h2 class="title txt-xl">Roman Numeral Converter</h2>
+        <p>
+          Not much to say, just convert any number to Roman Numeral :)
+        </p>
+          <input placeholder="666" id="roman_text" type="number" max="3999" min="1" class="input-roman txt-md"/>
+          <button class="btn txt-md" id="btn_roman_numeral">Convert</button>
+          <div class="txt-xl" id="roman_response"></div>
+        </div>
+      </section>
+      <section id="caesarsCipher">
+        <h2>Caesars Cipher</h2>
+        <p></p>
       </section>
     </main>
     <footer></footer>

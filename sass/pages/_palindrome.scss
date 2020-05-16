@@ -1,0 +1,12 @@
+.palindrome_app {
+  .palindrome_input {
+    padding: 1rem;
+  }
+  #palindrome_response {
+    text-transform: capitalize;
+    margin: 0;
+    p {
+      margin: 0;
+    }
+  }
+}

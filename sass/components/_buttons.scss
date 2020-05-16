@@ -1,0 +1,22 @@
+@import "../core/variables";
+
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: $color-primary;
+  margin: 2rem;
+  background: none;
+  padding: 1rem 2rem;
+  border: 2px solid $color-primary;
+  text-decoration: none;
+  outline: none;
+  transition: ease 0.1s;
+  &:hover {
+    background-color: $color-primary;
+    color: $color-secondary;
+  }
+  &:active {
+    background-color: $color-alternate;
+    color: $color-secondary;
+  }
+}
