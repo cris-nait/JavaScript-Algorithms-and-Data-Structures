@@ -38,10 +38,10 @@
       <div class="menu_container txt-sm">
         <a href="#"><p>Home</p></a>
         <a href="#palindromeChecker"><p>Palindrome Checker</p></a>
-        <a href=".roman-numeral"><p>Roman Numeral Converter</p></a>
-        <a href=""><p>Caesars Cipher</p></a>
-        <a href=""><p>Telephone Number Validator</p></a>
-        <a href=""><p>Cash Register</p></a>
+        <a href="#romanNumeralConverter"><p>Roman Numeral Converter</p></a>
+        <a href="#caesarsCipher"><p>Caesars Cipher</p></a>
+        <a href="#telephoneChecker"><p>Telephone Number Validator</p></a>
+        <a href="#cashRegister"><p>Cash Register</p></a>
       </div>
     </nav>
     <main class="container">
@@ -90,8 +90,39 @@
         </div>
       </section>
       <section id="caesarsCipher">
-        <h2>Caesars Cipher</h2>
-        <p></p>
+        <h2 class="title txt-xl">Caesars Cipher</h2>
+        <p>One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.
+
+         </p>
+         <p> A common modern use is the <b>ROT13</b> cipher, where the values of the letters are shifted by 13 places. Thus 'A' ↔ 'N', 'B' ↔ 'O' and so on.</p>
+         <p>Examples: <code>"SERR PBQR PNZC", "SERR CVMMN!", "GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT"</code></p>
+         <input type="text" id="caesar_text" class="caesar_input txt-md" value="SERR YBIR?">
+         <button id="btn_caesar" class="btn txt-md">
+          decode</button>
+          <div class="txt-xl" id="caesar_response"></div>
+      </section>
+      <section id="telephoneChecker">
+        <h2 class="title txt-xl">Telephone Checker</h2>
+        <p>
+          Here you can find out if a phone number is valid in the US.
+         </p>
+       
+         <p>Valid example: 
+           <code>555-555-5555</code>
+      </p>
+         <input type="text" id="telephone_text" class="telephone_input txt-md" value="1 555 555 5555">
+         <button id="btn_telephone" class="btn txt-md">
+          verify</button>
+          <div class="txt-xl" id="telephone_response"></div>
+      </section>
+      <section id="cashRegister">
+        <h2 class="title txt-xl">Cash Register</h2>
+      
+      
+         <input type="text" id="cash_text" class="cash_input txt-md" value="">
+         <button id="btn_cash" class="btn txt-md">
+          verify</button>
+          <div class="txt-xl" id="cash_response"></div>
       </section>
     </main>
     <footer></footer>
